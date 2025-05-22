@@ -1,0 +1,35 @@
+# === Rust (scanner-core) ===
+scanner-core/target/
+scanner-core/Cargo.lock
+
+# === Go (scheduler-go) ===
+scheduler-go/go.sum
+
+# === Ruby (dashboard-ruby) ===
+dashboard-ruby/Gemfile.lock
+dashboard-ruby/.ruby-version
+
+# === Perl (regex-module) ===
+# (Usually none needed unless you cache logs or temp files)
+
+# === Shared Data ===
+shared/data/*.env
+shared/data/*.log
+shared/data/*.txt
+
+# === IDEs / System ===
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+.idea/
+*.bak
+*.tmp
+
+# === Logs ===
+*.log
+
+# === OS cache ===
+*.DS_Store
+Thumbs.db
+
